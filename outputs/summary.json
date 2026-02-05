@@ -1,0 +1,141 @@
+{
+  "file": "je_samples.xlsx",
+  "row_count": 37905,
+  "column_count": 30,
+  "columns": [
+    "JEEntryKey",
+    "JENumber",
+    "JEIdentifier",
+    "GLAccountNumber",
+    "BLANK",
+    "EffectiveDate",
+    "Period",
+    "EntryDate",
+    "PreparerID",
+    "Source",
+    "BusinessUnit",
+    "JEDescription",
+    "Debit",
+    "Credit",
+    "Amount",
+    "AbsoluteAmount",
+    "SysManInd",
+    "UserDefined1",
+    "UserDefined2",
+    "UserDefined3",
+    "PeriodFlag",
+    "AccountType",
+    "AccountClass",
+    "GLAccountStartingBalance",
+    "GLAccountEndingBalance",
+    "SortOrder",
+    "GLAccountName",
+    "Category",
+    "Marked",
+    "MarkedInReport"
+  ],
+  "missing_values": {
+    "JEEntryKey": 0,
+    "JENumber": 0,
+    "JEIdentifier": 0,
+    "GLAccountNumber": 0,
+    "BLANK": 37905,
+    "EffectiveDate": 0,
+    "Period": 0,
+    "EntryDate": 0,
+    "PreparerID": 0,
+    "Source": 0,
+    "BusinessUnit": 0,
+    "JEDescription": 0,
+    "Debit": 18953,
+    "Credit": 18951,
+    "Amount": 0,
+    "AbsoluteAmount": 37905,
+    "SysManInd": 37905,
+    "UserDefined1": 37905,
+    "UserDefined2": 37905,
+    "UserDefined3": 37905,
+    "PeriodFlag": 37905,
+    "AccountType": 0,
+    "AccountClass": 0,
+    "GLAccountStartingBalance": 37902,
+    "GLAccountEndingBalance": 37905,
+    "SortOrder": 37905,
+    "GLAccountName": 0,
+    "Category": 37905,
+    "Marked": 37905,
+    "MarkedInReport": 37905
+  },
+  "date_columns": {
+    "Period": {
+      "min": "2015-01-01T00:00:00",
+      "max": "2016-12-01T00:00:00",
+      "non_null_ratio": 1.0
+    }
+  },
+  "numeric_summary": {
+    "JEEntryKey": {
+      "count": 37905,
+      "mean": 18228372.991294026,
+      "std": 5630621.945179169,
+      "min": 20151.0,
+      "max": 20169568.0
+    },
+    "JENumber": {
+      "count": 37905,
+      "mean": 18228372.991294026,
+      "std": 5630621.945179169,
+      "min": 20151.0,
+      "max": 20169568.0
+    },
+    "JEIdentifier": {
+      "count": 37905,
+      "mean": 18228372.991294026,
+      "std": 5630621.945179169,
+      "min": 20151.0,
+      "max": 20169568.0
+    },
+    "GLAccountNumber": {
+      "count": 37850,
+      "mean": 29372.425072655216,
+      "std": 20950.00943722373,
+      "min": 11845.0,
+      "max": 86200.0
+    },
+    "EffectiveDate": {
+      "count": 37905,
+      "mean": 42196.874475662844,
+      "std": 214.73279548798453,
+      "min": 41821.0,
+      "max": 42551.0
+    },
+    "EntryDate": {
+      "count": 37905,
+      "mean": 42195.87344677483,
+      "std": 214.6936320278031,
+      "min": 41815.0,
+      "max": 42551.0
+    },
+    "Debit": {
+      "count": 18951,
+      "mean": 2287.7508071176535,
+      "std": 10192.356697295407,
+      "min": -160918.46,
+      "max": 318505.8
+    },
+    "Credit": {
+      "count": 18954,
+      "mean": -2287.3887066416924,
+      "std": 10163.688405665383,
+      "min": -318505.8,
+      "max": 160918.46
+    },
+    "Amount": {
+      "count": 37905,
+      "mean": 0.0,
+      "std": 10431.81220266274,
+      "min": -318505.8,
+      "max": 318505.8
+    }
+  }
+}
