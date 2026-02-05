@@ -7,15 +7,32 @@ This repo includes a lightweight analysis workflow for `je_samples.xlsx` that pr
 ### How it works
 
 - **Script:** `scripts/analyze_je_samples.py`
+- **Benford Script:** `scripts/benford_analysis.py`
 - **Outputs:**
   - `outputs/summary.md` – human-readable overview
   - `outputs/summary.json` – machine-readable summary
   - `outputs/numeric_summary.csv` – descriptive statistics for numeric columns
+  - `outputs/benford_summary.md` – Benford's Law overview
+  - `outputs/benford_summary.json` – Benford counts and percentages
+  - `outputs/benford_summary.csv` – Benford counts and percentages in CSV
+  - `outputs/benford_chart.svg` – Benford chart for quick visual comparison
 
 ### Run locally
 
 ```bash
 python scripts/analyze_je_samples.py
+```
+
+To run the Benford analysis against the first numeric column with at least 10 values:
+
+```bash
+python scripts/benford_analysis.py
+```
+
+To target a specific column and file:
+
+```bash
+python scripts/benford_analysis.py --file your_file.xlsx --column "Amount"
 ```
 
 ### Run in GitHub Actions
